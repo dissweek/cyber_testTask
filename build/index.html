@@ -27,14 +27,14 @@
                             <span class="button__text">
                                 Попробовать бесплатно
                             </span>
-                            <div class="button__icon">
-                                <div class="button__icon_svg">
+                            <span class="button__icon">
+                                <span class="button__icon_svg">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M7 7H17V17" stroke="#1F4284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M7 17L17 7" stroke="#1F4284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                </div>
-                            </div>
+                                </span>
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -51,13 +51,13 @@
                 <div class="modal__close">
                     <div class="modal__close_icon"> <i class="fa-solid fa-xmark"></i></div>
                 </div>
-                <form action="" name="login" class="form">
-                    <label for="login" class="form__label ">Войти в систему</label>
+                <form action="#" name="login" class="form" id="form">
+                    <label for="mail" class="form__label ">Войти в систему</label>
                     <input type="text" placeholder="Email/Телефон" class="form__mail  form__input" id="mail">
                     <input type="password" placeholder="Пароль" name="password" class="form__pass form__input" id="password">
                     <div class="form__label_container">
                         <input type="checkbox" class="form__checkbox" name="memory" id="form__checkbox">
-                        <label for="memory" class="form__label_pass">Запомнить пароль</label>
+                        <label for="form__checkbox" class="form__label_pass">Запомнить пароль</label>
                     </div>
                     <a href="#" class="form__reset">Восстановить</a>
                     <button type="submit" class="form__login form__button">Войти</button>
